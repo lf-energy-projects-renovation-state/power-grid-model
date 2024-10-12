@@ -41,7 +41,7 @@ dynamic = ["version"]
 [project.optional-dependencies]
 dev = ["msgpack", "pre-commit", "pylint", "pytest", "pytest-cov"]
 doc = [
-    "sphinx<8.1",                # Upper bound pin on sphinx can be removed once https://github.com/mgaitan/sphinxcontrib-mermaid/issues/160 is resolved
+    "sphinx<8.2",                # Upper bound pin on sphinx can be removed once https://github.com/mgaitan/sphinxcontrib-mermaid/issues/160 is resolved
     "breathe",
     "myst_nb",
     "sphinx_rtd_theme",
