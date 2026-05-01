@@ -43,7 +43,7 @@ lint = [
     "mypy",
     "numpy",                # needed for mypy
     "gersemi",              # CMake linter
-    "clang-format ~= 18.0", # C++ formatter
+    "clang-format ~=22.1", # C++ formatter
 ]
 
 example = ["ipykernel"]
