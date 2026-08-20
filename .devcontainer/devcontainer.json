@@ -3,7 +3,7 @@
   "image": "ghcr.io/astral-sh/uv:debian",
   "features": {
     // install Node.js (via nvm), yarn and pnpm
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:2": {
       "version": "lts"
     }
   },
